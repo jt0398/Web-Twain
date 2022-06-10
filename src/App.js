@@ -19,13 +19,10 @@ class App extends Component {
         <br />
         <DWT
           features={[
-            "scan",
-            "camera",
+            "scan",           
             "load",
             "save",
-            "upload",
-            "barcode",
-            "ocr",
+            "upload", 
             "uploader"
           ]}
         />
